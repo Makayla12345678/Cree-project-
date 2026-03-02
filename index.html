@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swampy Cree Dictionary & Constellations</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Swampy Cree Learning</h1>
+            <p>Dictionary & Constellations</p>
+            <nav>
+                <button id="btn-dictionary" class="active">Dictionary</button>
+                <button id="btn-constellations">Constellations</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Dictionary Section -->
+        <section id="dictionary-section">
+            <h2>Swampy Cree Dictionary</h2>
+            <p class="subtitle">Explore 20 common words.</p>
+            <div id="dictionary-grid" class="grid">
+                <!-- Dictionary items will be loaded here via JS -->
+            </div>
+        </section>
+
+        <!-- Constellations Section -->
+        <section id="constellations-section" class="hidden">
+            <h2>Cree Constellations</h2>
+            <p class="subtitle">Discover 10 celestial bodies and constellations.</p>
+            <div id="constellations-grid" class="grid">
+                <!-- Constellation items will be loaded here via JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Swampy Cree Learning Project</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
